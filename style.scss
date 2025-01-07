@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: rgba(25, 42, 70, 1);
+}
+
+.background{
+   
+.container{
+    display: flex;
+    background-color: rgba(3, 12, 27, 1);
+max-width: 1215px;
+margin: 0 auto;
+border: 6px solid #FFFFFF;
+border-radius: 16px;
+box-shadow: 0px 24px 69px 0px #00000040;
+margin-top: 96px;
+
+    menu{
+        
+        background-color: rgba(42, 65, 120, 1);
+        top: 90px;
+        left: 111px;
+        display: inline-block;
+        .switch{
+            padding: 19px 78px 0 65px;
+            &:hover{
+                cursor: pointer;
+                transition: all 0.3s ease;
+                scale: 1.01;
+            }
+        }
+
+        .dashboard{
+            button{
+                display: flex;
+                gap: 22px;
+                padding: 10px 14px 9px 11px;
+                margin: 33px 30px 42px 19px;
+                background-color: rgba(255, 207, 0, 1);
+                box-shadow: 0px 4px 10px 0px rgba(175, 137, 255, 0.15);
+                border-radius: 8px;
+                border: none;
+                &:hover{
+                background-color: rgba(224, 184, 8, 0.927);
+                cursor: pointer;
+                  transition: all 0.3s ease;
+                }
+            }
+        }
+
+        .order{
+            display: flex;
+                gap: 22px;
+                padding: 10px 14px 9px 11px;
+                margin: 0 30px 42px 19px;
+                background-color: transparent;
+                border: none;
+                color: rgba(167, 183, 221, 1);
+
+                &:hover{
+        background-color: rgb(5, 38, 112);
+                    border-radius: 8px;
+                    cursor: pointer;
+                  transition: all 0.3s ease;
+                 width: 144px;
+                }
+        }
+
+        .products{
+            margin-top: 0;
+        }
+
+        .support{
+            color: rgba(255, 255, 255, 1);
+            padding-left: 26px;
+
+        }
+
+        .px_12{
+            color: rgba(191, 191, 191, 1);
+            font-size: 12px;
+            width: 138px;
+            padding-left: 26px;
+            margin: auto;
+            padding: 13px 0; 
+        }
+
+        .ai_chat{
+            display: flex;
+            gap: 6px;
+            padding: 10px;
+            background-color: rgba(21, 243, 252, 1);
+            border-radius: 8px;
+            border: none;
+            margin-left: 26px;
+            &:hover{
+                background-color: rgba(17, 212, 219, 0.9);
+                            cursor: pointer;
+                          transition: all 0.3s ease;
+                        }
+        }
+
+        .priv{
+            padding-bottom: 44px;
+        }
+    }
+
+    .px_16{
+        color: rgba(255, 255, 255, 1);
+        font-size: 16px;
+       padding: 27px 0 5px 31px;
+       display: inline-block;
+    }
+    header{
+       
+display: flex;
+        align-items: center;
+gap: 45px;
+        .px_28{
+            font-family: Poppins;
+font-size: 28px;
+font-weight: 600;
+line-height: 42px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(255, 255, 255, 1);
+        }
+       
+        .px_12{
+            color: rgba(255, 69, 136, 1);
+            font-size: 12px;
+        }
+
+        .search{
+            background: rgba(50, 56, 98, 1);
+            border-radius: 8px;
+            border: none;
+            padding: 12px 280px 6px 17px;
+            display: flex;
+            gap: 9px;
+            justify-content: center;
+            align-items: center;
+            p{
+            color: rgba(255, 255, 255, 1);
+            font-size: 16px;
+            }
+        }
+
+        .notification{
+            border: none;
+            background-color: transparent;
+           &:hover{
+            padding: 7px 7px 3px 7px;
+            border-radius: 50%;
+            background-color: #e3e3e3;
+            
+           }
+        }
+
+        .revenu{
+            display: flex;
+            gap: 8px;
+            align-items: last baseline;
+        }
+    }
+
+
+    main{
+
+        .px_18{
+            color: rgba(255, 255, 255, 1);
+            font-size: 28px;
+            padding: 21px 0 0 28px;
+
+        }
+
+        .px_67{
+            font-size: 60px;
+            color: rgba(255, 255, 255, 1);
+            padding: 0px 28px 15px 248px;
+        }
+
+        .results{
+            background: linear-gradient(98.86deg, #6BAAFC 0%, #305FEC 100%);
+            box-shadow: 0px 2px 10px 0px rgba(175, 137, 255, 0.15);
+         border-radius: 15px;
+        }
+    }
+
+
+}
+
+}
