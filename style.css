@@ -11,9 +11,8 @@ body {
 }
 
 .background .container {
-  display: flex;
   background-color: rgb(3, 12, 27);
-  max-width: 1215px;
+  max-width: 1265px;
   margin: 0 auto;
   border: 6px solid #FFFFFF;
   border-radius: 16px;
@@ -21,10 +20,9 @@ body {
   margin-top: 96px;
 }
 .background .container menu {
+  position: fixed;
+  width: 195px;
   background-color: rgb(42, 65, 120);
-  top: 90px;
-  left: 111px;
-  display: inline-block;
 }
 .background .container menu .switch {
   padding: 19px 78px 0 65px;
@@ -104,9 +102,11 @@ body {
   display: inline-block;
 }
 .background .container header {
+  margin: auto;
+  margin-left: 225px;
   display: flex;
   align-items: center;
-  gap: 45px;
+  gap: 50px;
 }
 .background .container header .px_28 {
   font-family: Poppins;
@@ -151,6 +151,12 @@ body {
   gap: 8px;
   align-items: last baseline;
 }
+.background .container main {
+  margin-left: 225px;
+  margin-top: 40px;
+  display: flex;
+  gap: 28px;
+}
 .background .container main .px_18 {
   color: rgb(255, 255, 255);
   font-size: 28px;
@@ -159,10 +165,28 @@ body {
 .background .container main .px_67 {
   font-size: 60px;
   color: rgb(255, 255, 255);
-  padding: 0px 28px 15px 248px;
+  padding: 0px 28px 15px 218px;
 }
 .background .container main .results {
   background: linear-gradient(98.86deg, #6BAAFC 0%, #305FEC 100%);
   box-shadow: 0px 2px 10px 0px rgba(175, 137, 255, 0.15);
   border-radius: 15px;
+}
+.background .container .diagram {
+  margin-left: 225px;
+  background-color: rgb(22, 25, 58);
+  border-radius: 15px;
+  margin-top: 30px;
+  padding: 15px 0 0 28px;
+}
+.background .container .diagram p {
+  color: rgb(255, 255, 255);
+}
+.background .container .diagram .view {
+  display: flex;
+  gap: 100px;
+}
+.background .container .diagram .inbox {
+  display: flex;
+  gap: 100px;
 }/*# sourceMappingURL=style.css.map */

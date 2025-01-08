@@ -14,21 +14,20 @@ body{
 .background{
    
 .container{
-    display: flex;
     background-color: rgba(3, 12, 27, 1);
-max-width: 1215px;
+max-width: 1265px;
 margin: 0 auto;
 border: 6px solid #FFFFFF;
 border-radius: 16px;
 box-shadow: 0px 24px 69px 0px #00000040;
 margin-top: 96px;
-
     menu{
-        
+        position: fixed;
+        width: 195px;
         background-color: rgba(42, 65, 120, 1);
-        top: 90px;
-        left: 111px;
-        display: inline-block;
+        // top: 90px;
+        // left: 111px;
+
         .switch{
             padding: 19px 78px 0 65px;
             &:hover{
@@ -120,10 +119,12 @@ margin-top: 96px;
        display: inline-block;
     }
     header{
-       
+       margin: auto;
+      margin-left: 225px;
+
 display: flex;
         align-items: center;
-gap: 45px;
+gap: 50px;
         .px_28{
             font-family: Poppins;
 font-size: 28px;
@@ -175,7 +176,10 @@ color: rgba(255, 255, 255, 1);
 
 
     main{
-
+        margin-left: 225px;
+        margin-top: 40px;
+display: flex;
+gap: 28px;
         .px_18{
             color: rgba(255, 255, 255, 1);
             font-size: 28px;
@@ -186,7 +190,7 @@ color: rgba(255, 255, 255, 1);
         .px_67{
             font-size: 60px;
             color: rgba(255, 255, 255, 1);
-            padding: 0px 28px 15px 248px;
+            padding: 0px 28px 15px 218px;
         }
 
         .results{
@@ -195,6 +199,32 @@ color: rgba(255, 255, 255, 1);
          border-radius: 15px;
         }
     }
+
+
+    .diagram
+    {
+margin-left: 225px;
+        background-color: rgba(22, 25, 58, 1);
+border-radius: 15px;
+margin-top: 30px;
+padding: 15px 0 0 28px;
+
+        p{
+            color: rgba(255, 255, 255, 1);
+        }
+
+        .view{
+            display: flex;
+            gap: 100px;
+
+        }
+
+        .inbox{
+            display: flex;
+            gap: 100px;
+        }
+    }
+
 
 
 }
