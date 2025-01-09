@@ -23,6 +23,7 @@ body {
   position: fixed;
   width: 195px;
   background-color: rgb(42, 65, 120);
+  border-radius: 15px;
 }
 .background .container menu .switch {
   padding: 19px 78px 0 65px;
@@ -93,7 +94,8 @@ body {
   transition: all 0.3s ease;
 }
 .background .container menu .priv {
-  padding-bottom: 44px;
+  padding-bottom: 98px;
+  padding-top: 50px;
 }
 .background .container .px_16 {
   color: rgb(255, 255, 255);
@@ -172,21 +174,115 @@ body {
   box-shadow: 0px 2px 10px 0px rgba(175, 137, 255, 0.15);
   border-radius: 15px;
 }
-.background .container .diagram {
-  margin-left: 225px;
-  background-color: rgb(22, 25, 58);
-  border-radius: 15px;
-  margin-top: 30px;
-  padding: 15px 0 0 28px;
+.background .container .main {
+  display: flex;
+  gap: 28px;
 }
-.background .container .diagram p {
+.background .container .main .diagram {
+  margin-left: 225px;
+  border-radius: 15px;
+  margin-top: 10px;
+  padding: 15px 0 0 28px;
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+.background .container .main .diagram .waiting {
+  display: flex;
+  gap: 100px;
+  padding-bottom: 12px;
+}
+.background .container .main .diagram .second {
+  padding-top: 12px;
+}
+.background .container .main .diagram p {
   color: rgb(255, 255, 255);
 }
-.background .container .diagram .view {
+.background .container .main .diagram .view {
   display: flex;
-  gap: 100px;
+  gap: 150px;
 }
-.background .container .diagram .inbox {
+.background .container .main .diagram .inbox {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 100px;
+  display: inline-block;
+  background-color: rgb(22, 25, 58);
+  padding: 13px 30px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+.background .container .main .diagram .inbox a {
+  text-decoration: none;
+  color: rgb(55, 81, 255);
+}
+.background .container .main .diagram .activity {
+  padding: 32px 32px 20px 32px;
+  display: flex;
+  gap: 140px;
+  background-color: rgb(22, 25, 58);
+  border-radius: 15px;
+  display: inline-block;
+}
+.background .container .main .diagram .activity p a {
+  text-decoration: none;
+  color: rgb(55, 81, 255);
+}
+.background .container .main .diagram .activity .bar {
+  display: flex;
+  gap: 210px;
+}
+.background .container .main .diagram .activity .confirm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.background .container .main .diagram .activity .second_urg {
+  padding-top: 0;
+}
+.background .container .main .diagram .activity .first {
+  padding-top: 54px;
+  padding-bottom: 18px;
+}
+.background .container .main .diagram .activity .sec_ur {
+  padding-top: 20px;
+}
+.background .container .main .diagram .activity .urgent {
+  display: flex;
+  gap: 110px;
+  justify-content: center;
+  align-items: center;
+}
+.background .container .main .diagram .activity .urgent button {
+  background-color: rgb(254, 196, 0);
+  padding: 5px 12px;
+  border-radius: 8px;
+}
+.background .container .main .diagram .div_urgent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.background .container .main .diagram .div_urgent .last {
+  padding-bottom: 26px;
+}
+.background .container .main .chart {
+  background-color: rgb(22, 25, 58);
+  border-radius: 15px;
+  padding: 28px 14px 26px 17px;
+  margin-top: 25px;
+}
+.background .container .main .chart .graph_main {
+  padding-top: 45px;
+}
+.background .container .main .chart .graph {
+  display: flex;
+  gap: 130px;
+  padding-top: 5px;
+}
+.background .container .main .chart .graph p {
+  color: rgb(255, 255, 255);
 }/*# sourceMappingURL=style.css.map */
